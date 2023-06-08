@@ -107,7 +107,7 @@ The purpose of this project is to assimilate a working environment, adopting an 
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/HMoana/M5-Backend.git
+   git clone https://github.com/jinzh23/M5-Backend.git
    ```
 
 2. Install NPM packages
@@ -134,8 +134,8 @@ The purpose of this project is to assimilate a working environment, adopting an 
 
 _Developers:_
 
-- Heni Kimura - <henik@missionreadyhq.com>
 - Jin Zhang - <jinz@missionreadyhq.com>
+- Heni Kimura - <henik@missionreadyhq.com>
 - Ricardo Diaz Rodriguez <diiaz2910@gmail.com>
 
 _UX Designers:_
@@ -145,7 +145,7 @@ _UX Designers:_
 
 ### **Project Link:**
 
-[Github repository](https://github.com/HMoana/M5-Backend.git "Github repository")
+[Github repository](https://github.com/jinzh23/M5-Backend.git "Github repository")
 
 ### **License:**
 
