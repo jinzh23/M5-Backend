@@ -1,4 +1,4 @@
-// Databse connection code.
+// Database connection code.
 const { MongoClient } = require("mongodb");
 
 let dbConnection;
