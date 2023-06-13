@@ -19,7 +19,7 @@ COPY . .
 # RUN npm run build
 
 # export a port
-EXPOSE 8080
+EXPOSE 4000
 
 # run my api
 # whatever is given in CMD is used to run whenever the container is up
