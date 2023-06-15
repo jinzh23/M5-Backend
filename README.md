@@ -65,7 +65,7 @@ The purpose of this project is to assimilate a working environment, adopting an 
   npm i express
   ```
 
-  - Dotenv
+- Dotenv
 
   ```sh
   npm i dotenv
