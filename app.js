@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
+const mongoose = require("mongoose");
 
 const { connectToDb, getDb } = require("./db");
 const ObjectId = require("mongodb").ObjectId;
