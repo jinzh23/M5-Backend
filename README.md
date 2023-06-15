@@ -19,17 +19,14 @@
 (a) A redesigned home page at <https://metronz.co.nz/>, taking the customers feedback into consideration
 
 - Metro Home page by Jin Zhang
-- Branch feature-homepage
 
 (b) A redesigned search function and features page(s) of property listings, using the company’s third party web page at <https://apply.tpsportal.co.nz/tps6175?> as a reference.
 
 - Metro search listing page by Ricardo Diaz Rodriguez
-- Branch feature-listing-page
 
 (c) A complete redesign building upon the property listings page. This additional listing information page provides the user with more detailed information about the selected property(s). Where they have the options to enquire about the property, book a viewing of the property or make an application for the property.
 
 - Metro listing information page by Heni Kimura
-- Branch feature-listing-info
 
 ### **Purpose**
 
@@ -86,12 +83,6 @@ The purpose of this project is to assimilate a working environment, adopting an 
   npm i mongodb
   ```
 
-- Mongoose
-
-  ```sh
-  npm i mongoose
-  ```
-
 - _DevDependencies:_
 
 - Nodemon
@@ -102,15 +93,45 @@ The purpose of this project is to assimilate a working environment, adopting an 
 
 ---
 
-### Installation
+### **Project structure and installation:**
 
-1. Clone the repo
+1. Root directory 
+
+   ```sh
+   Mission 5
+   ```
+
+2. Backend directory
+
+   ```sh
+   M5-Backend
+   ```
+
+3. Clone the backend repo
 
    ```sh
    git clone https://github.com/jinzh23/M5-Backend.git
    ```
 
-2. Install NPM packages
+4. Install NPM packages
+
+   ```sh
+   npm install
+   ```   ```
+
+5. Frontend directory
+
+   ```sh
+   M5-Frontend
+   ```
+
+6. Clone the frontend repo
+
+   ```sh
+   git clone https://github.com/HMoana/M5-Frontend.git
+   ```
+
+7. Install NPM packages
 
    ```sh
    npm install
@@ -118,15 +139,31 @@ The purpose of this project is to assimilate a working environment, adopting an 
 
 ---
 
+### **Docker set-up:**
+
+- Open integrated terminal on _M5-Backend_
+- Open _docker desktop_ 
+- In the terminal use command _'docker-compose up --build'_ this will build, run & compose the docker containers
+- After some time the terminal will show _mongo output & listening to the server port_
+- In _docker desktop_ both mongo and server containers should appear as _'running'_
+- Open another integrated terminal on _M5-Frontend_ and use command _'npm start'_
+
+---
+
 ### **Features:**
 
 - Dockerized server built with nodejs and express
-- Hosted and run by docker compose
-- Communicates with backend using MongoDB
+- Dockerized mongo database
+- Built, hosted and run by docker compose
+- Use of api to communicate requests & responses with dockerized containers
 
 ---
 
 ### **Future improvements:**
+
+- Improve connection string to mongo compass
+- Use mongoose, creating schemas and models
+- Refactor and use testing during development
 
 ---
 
@@ -145,7 +182,8 @@ _UX Designers:_
 
 ### **Project Link:**
 
-[Github repository](https://github.com/jinzh23/M5-Backend.git "Github repository")
+[Github repository](https://github.com/jinzh23/M5-Backend.git "Github backend repository")
+[Github repository](https://github.com/HMoana/M5-Frontend.git "Github frontend repository")
 
 ### **License:**
 
@@ -158,3 +196,4 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 - [Docker Compose](https://docs.docker.com/compose/gettingstarted/ "Docker Compose")
 - [ZenOfAI](https://medium.com/zenofai/how-to-build-a-node-js-and-mongodb-application-with-docker-containers-15e535baabf5 "ZenOfAI")
 - [MongoDB](https://www.mongodb.com/basics/get-started "MongoDB")
+- [MERN](https://youtu.be/0B2raYYH2fE "Mern")
