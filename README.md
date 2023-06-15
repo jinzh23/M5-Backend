@@ -117,7 +117,7 @@ The purpose of this project is to assimilate a working environment, adopting an 
 
    ```sh
    npm install
-   ```   ```
+   ```   
 
 5. Frontend directory
 
@@ -182,8 +182,8 @@ _UX Designers:_
 
 ### **Project Link:**
 
-[Github backend repository](https://github.com/jinzh23/M5-Backend.git "Github backend repository")
-[Github frontend repository](https://github.com/HMoana/M5-Frontend.git "Github frontend repository")
+- [Github backend repository](https://github.com/jinzh23/M5-Backend.git "Github backend repository")
+- [Github frontend repository](https://github.com/HMoana/M5-Frontend.git "Github frontend repository")
 
 ### **License:**
 
