@@ -3,9 +3,11 @@
 # this image has alpine OS with node in it
 FROM node:14
 
-WORKDIR /M5-Backend
+WORKDIR /usr/src/app
+# WORKDIR /M5-Backend
 
-COPY package.json package-lock.json ./
+COPY package*.json ./
+# COPY package.json package-lock.json ./
 
 # install node dependencies
 RUN npm install 
