@@ -1,4 +1,4 @@
-# Backend built with nodejs, express linked to a MongoDB database & hosted with docker containers and docker compose
+# Dockerized MERN Project
 
 ## Metro re-design of homepage and search listing page
 
