@@ -1,5 +1,10 @@
 // Database connection code.
 const { MongoClient } = require("mongodb");
+// const dotenv = require("dotenv");
+
+// dotenv.config();
+
+// const url = process.env.MONGO_URI_LOCAL;
 
 let dbConnection;
 

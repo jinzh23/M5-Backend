@@ -12,6 +12,16 @@ services:
   #   networks:
   #     - networkThree
 
+  mongo:
+    container_name: mongo
+    image: mongo:latest
+    ports:
+      - 27017:27017
+    volumes:
+      - data:/data/db
+    networks:
+      - networkThree
+
   server:
     container_name: server
     build: 
@@ -22,18 +32,12 @@ services:
       - 4000:4000
     depends_on:
       - mongo
+    volumes: 
+      - .:/app
     networks:
       - networkThree
 
-  mongo:
-    container_name: mongo
-    image: mongo
-    ports:
-      - 27017:27017
-    volumes:
-      - ./data:/data/db
-    networks:
-      - networkThree
+  
 
 networks:
   networkThree:
